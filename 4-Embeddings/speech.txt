@@ -1,0 +1,12 @@
+Transformers are a type of neural network architecture that transforms or changes an input sequence into an output sequence. They do this by learning context and tracking relationships between sequence components. For example, consider this input sequence: "What is the color of the sky?" The transformer model uses an internal mathematical representation that identifies the relevancy and relationship between the words color, sky, and blue. It uses that knowledge to generate the output: "The sky is blue." 
+
+Organizations use transformer models for all types of sequence conversions, from speech recognition to machine translation and protein sequence analysis.
+
+Why are transformers important?
+Early deep learning models that focused extensively on natural language processing (NLP) tasks aimed at getting computers to understand and respond to natural human language. They guessed the next word in a sequence based on the previous word.
+
+To understand better, consider the autocomplete feature in your smartphone. It makes suggestions based on the frequency of word pairs that you type. For example, if you frequently type "I am fine," your phone autosuggests fine after you type am.
+
+Early machine learning (ML) models applied similar technology on a broader scale. They mapped the relationship frequency between different word pairs or word groups in their training data set and tried to guess the next word. However, early technology couldn’t retain context beyond a certain input length. For example, an early ML model couldn’t generate a meaningful paragraph because it couldn’t retain context between the first and last sentence in a paragraph. To generate an output such as "I am from Italy. I like horse riding. I speak Italian.", the model needs to remember the connection between Italy and Italian, which early neural networks just couldn’t do.
+
+Transformer models fundamentally changed NLP technologies by enabling models to handle such long-range dependencies in text. The following are more benefits of transformers.
